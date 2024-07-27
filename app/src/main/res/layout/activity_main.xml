@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/r1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/r2"
+        android:padding="5dp"
+        app:cardCornerRadius="20dp">
+
+
+        <EditText
+            android:id="@+id/textvieww"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Paste Link Here !"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textvieww"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:id="@+id/o1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <Button
+                    android:id="@+id/twoscreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white"
+                    android:text="2 Screen"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/fourscreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white"
+                    android:text="4 Screen"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/o2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/o1">
+
+                <Button
+                    android:id="@+id/sixscreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white"
+                    android:text="6 Screen"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/Eightscreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white"
+                    android:text="8 Screen"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/r2"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="⚫ Video Repeat Time"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+        <RelativeLayout
+            android:id="@+id/ggsd"
+            android:layout_below="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:id="@+id/minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:text="Minute"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/minute_text_input"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:textSize="20dp"
+                android:maxEms="59"
+                android:layout_toRightOf="@+id/minute" />
+
+            <TextView
+                android:id="@+id/second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@+id/minute_text_input"
+                android:text="Second"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/second_text_input"
+                android:layout_width="50dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:maxEms="59"
+                android:inputType="number"
+                android:layout_toRightOf="@+id/second" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/icon1"
+            android:layout_below="@+id/ggsd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="⬤ Note : \n\n Set the desired repeat interval in minutes and seconds, then click the button below to have the video automatically replay after the specified duration. This feature allows for seamless looping of the video based on your chosen time settings, enhancing your viewing experience without manual intervention."
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
