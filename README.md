@@ -1,2 +1,11 @@
-![Screenshot_2024-07-27-14-53-29-68_8332bb72acd2b47ca5adc411c817ba7d](https://github.com/user-attachments/assets/3f46ac7b-ea2c-4976-8fc6-9a4a0dac9cc3)
-![Screenshot_2024-07-27-14-52-48-53_8332bb72acd2b47ca5adc411c817ba7d](https://github.com/user-attachments/assets/bb67059e-5abe-4e2a-b740-e5438a53b57a)
+* Multi-Tab Watcher is a versatile application designed to enhance your viewing experience by allowing you to watch content simultaneously across multiple tabs. Whether you're looking to increase your watch time for streaming services, manage multiple video sources, or simply multitask more efficiently, this app provides an intuitive solution.
+
+ * Features
+- Multi-Tab Support: Seamlessly watch different content in multiple browser tabs.
+- Watch Time Tracker: Monitor and track the total watch time across all tabs.
+- Customizable Notifications: Get reminders to stay on track or switch tabs based on your preferences.
+- Session Management: Save and restore your session to continue watching where you left off.
+ * How It Works
+1. Open Multiple Tabs: Launch the app and open as many tabs as needed to start watching different content.
+2. Track Watch Time: The app automatically calculates and aggregates the watch time from all active tabs.
+3. Receive Notifications: Customize your notification settings to get alerts about your viewing progress or tab management.  
